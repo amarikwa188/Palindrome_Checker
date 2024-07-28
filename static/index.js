@@ -12,14 +12,11 @@ function checkPalindrome(){
 function validPalindrome(){
     document.getElementById("result").style.backgroundColor = "lightgreen";
 
-    const word = document.getElementById("entry").value;
-    document.getElementById("result-text").innerHTML = `Yes! ${word} is a palindrome.`;
-    
+    document.getElementById("result-text").innerHTML = `Yes! It is a palindrome.`;   
 }
 
 function invalidPalindrome(){
     document.getElementById("result").style.backgroundColor = "lightcoral";
 
-    const word = document.getElementById("entry").value;
-    document.getElementById("result-text").innerHTML = `Nope! ${word} is not a palindrome.`;
+    document.getElementById("result-text").innerHTML = `Nope! It is not a palindrome.`;
 }
