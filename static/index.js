@@ -1,5 +1,10 @@
 function checkPalindrome(){
     const string = document.getElementById("entry").value;
+
+    if(string === ""){
+        return;
+    }
+
     const flip = string.split('').reverse().join('');
     
     if (string === flip){
