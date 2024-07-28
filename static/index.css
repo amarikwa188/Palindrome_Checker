@@ -4,6 +4,9 @@
 
 body{
     background: lightgreen;
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
 }
 
 #main{
@@ -38,7 +41,7 @@ body{
 
 #check:hover{
     cursor: pointer;
-    background-color: #00c5c5;
+    background-color: #06cdff;
 }
 
 #result{
